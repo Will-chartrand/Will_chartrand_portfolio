@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #47b2e4;
+  color: #808080;
   text-decoration: none;
 }
 
 a:hover {
-  color: #73c5eb;
+  color: #808080;
   text-decoration: none;
 }
 
@@ -293,7 +293,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(40, 58, 90, 0.9);
+  background: rgba(0, 0, 0, 0.9);
   transition: 0.3s;
   z-index: 999;
 }
@@ -321,11 +321,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile a {
   padding: 10px 20px;
   font-size: 15px;
-  color: #37517e;
+  color: #000000;
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #47b2e4;
+  color: #808080;
 }
 
 .navbar-mobile .getstarted {
@@ -335,14 +335,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar-mobile .dropdown ul {
   position: static;
-  display: none;
+  /*display: none;*/
   margin: 10px 20px;
   padding: 10px 0;
   z-index: 99;
   opacity: 1;
   visibility: visible;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  background: rgb(255, 255, 255);
+  box-shadow: 0px 0px 30px #808080;
 }
 
 .navbar-mobile .dropdown ul li {
@@ -358,7 +358,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #47b2e4;
+  color: #808080;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -370,7 +370,7 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   background: #000000;
 }
 
@@ -403,11 +403,11 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.5s;
   margin: 10px 0 0 0;
   color: #fff;
-  background: #47b2e4;
+  background: #000000;
 }
 
 #hero .btn-get-started:hover {
-  background: #209dd8;
+  background: #808080;
 }
 
 #hero .btn-watch-video {
@@ -429,7 +429,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-watch-video:hover i {
-  color: #47b2e4;
+  color: #808080;
 }
 
 #hero .animated {
@@ -696,7 +696,7 @@ section {
 }
 
 .why-us .accordion-list span {
-  color: #47b2e4;
+  color: #000000;
   font-weight: 600;
   font-size: 18px;
   padding-right: 10px;
